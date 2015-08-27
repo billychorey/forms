@@ -1,0 +1,178 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="x-ua-compatible" content="ie=edge">
+
+		<title>Form Exercise</title>
+
+		<meta name="description" content="">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<!-- Place favicon.ico in the root directory -->
+
+		<link rel="stylesheet" href="css/style.css">
+	</head>
+	<body>
+		<form action="path/to/serverscript.php" method="post"<form>
+		</form>
+			<fieldset>	
+				<legend><h4>Name</h4></legend>
+				<div>
+					<label for="firstname">First Name:</label>
+					<input type="text" firstname="firstname" id="firstname" value="" />
+				</div>
+				<div>
+					<label for="lastname">Last Name:</label>
+					<input type="text" lastname="lastname" id="lastname" value="" />
+				</div>
+			</fieldset>
+			<fieldset>
+				<legend><h4>Address</h4></legend>
+				<div>
+					<label for="streetaddress">Street Address:</label>
+					<input type="text" streetaddress="streetaddress" id="streetaddress" value="" />
+				</div>
+				<div>
+					<label for="city">city</label>
+					<input type="text" city="city" id="city" value="" />
+				</div>
+				<div>
+					<label for="zip">Zip Code:</label>
+					<input type="text" zip="zip" id="zip" value="" />
+				</div>
+				<div>						
+					<h4>Select State</h4>
+
+					<select name="select-choice" id="select-choice">
+						<option value="choice_1">Alabama</option>
+						<option value="choice_2">Florida</option>
+						<option value="choice_3">Georgia</option>
+						<option value="choice_4">North Carolina</option>
+						<option value="choice_5">South Carolina</option>
+						<option value="choice_6">Tennessee</option>
+					</select>
+				</div>
+			</fieldset>
+				<div>
+					<h4>Age:</h4>
+					<label for="radio-choice-1"> 0-17</label>
+					<input type="radio" name="radiochoice" id="radio-choice-1" value="choice-1"/>
+					<label for="radio-choice-2"> 18-34</label>
+					<input type="radio" name="radiochoice" id="radio-choice-2" value="choice-2"/>
+					<label for="radio-choice-3"> Over 35</label>
+					<input type="radio" name="radiochoice" id="radio-choice-3" value="choice-3"/>											
+				</div>
+				<div>
+					<h4>Ethnicity</h4>
+
+					<select name="select-choice" id="select-choice">
+						<option value="choice_1">Caucasian</option>
+						<option value="choice_2">Hispanic</option>
+						<option value="choice_3">African-American</option>
+						<option value="choice_4">Other</option>
+						<option value="choice_5">Don't Ask</option>							
+					</select>
+				</div>
+				<div>
+					<h4>Gender:</h4>
+					<label for="radio-choice-1"> Male</label>
+					<input type="radio" name="radiochoice" id="radio-choice-1" value="choice-1"/>
+					<label for="radio-choice-2"> Female</label>
+					<input type="radio" name="radiochoice" id="radio-choice-2" value="choice-2"/>						
+				</div>
+			<fieldset>
+				<legend>Questions</legend>
+					<div>
+						<h4>1. In the last 12 months, how many films have you seen in theatres:</h4>
+						<label for="radio-choice-1"> 0-5</label>
+						<input type="radio" name="radiochoice" id="radio-choice-1" value="choice-1"/>
+						<label for="radio-choice-2"> 6-10</label>
+						<input type="radio" name="radiochoice" id="radio-choice-2" value="choice-2"/>
+						<label for="radio-choice-3"> more than 10</label>
+						<input type="radio" name="radiochoice" id="radio-choice-3" value="choice-3"/>
+					</div>
+					<div>
+						<h4>2. In the last 12 months, what genres of movies have you seen in theatres (Select all that apply):</h4>
+						<label for="checkbox-1"> Action-Adventure:</label>
+						<input type="checkbox" name="checkbox-1" id="checkbox-1"/>
+					
+						<label for="checkbox-2"> Sci-Fi:</label>
+						<input type="checkbox" name="checkbox-2" id="checkbox-2"/>
+					
+						<label for="checkbox-3"> Comedy:</label>
+						<input type="checkbox" name="checkbox-3" id="checkbox-3"/>
+
+						<label for="checkbox-4"> Thriller:</label>
+						<input type="checkbox" name="checkbox-4" id="checkbox-4"/>
+
+						<label for="checkbox-4"> Musical:</label>
+						<input type="checkbox" name="checkbox-4" id="checkbox-4"/>
+
+						<label for="checkbox-5"> Animated:</label>
+						<input type="checkbox" name="checkbox-5" id="checkbox-5"/>
+
+						<label for="checkbox-6"> Horror:</label>
+						<input type="checkbox" name="checkbox-6" id="checkbox-6"/>
+
+						<label for="checkbox-7"> Family:</label>
+						<input type="checkbox" name="checkbox-7" id="checkbox-7"/>
+
+						<label for="checkbox-8"> Documentary:</label>
+						<input type="checkbox" name="checkbox-8" id="checkbox-8"/>
+					</div>
+					<div>
+						<h4>3. If you like watching movies in the theatre, how likely are you to buy the dvd/blue-ray later:</h4>
+						<label for="radio-choice-1"> Very likely</label>
+						<input type="radio" name="radiochoice" id="radio-choice-1" value="choice-1"/>
+						<label for="radio-choice-2"> Somewhat likely</label>
+						<input type="radio" name="radiochoice" id="radio-choice-2" value="choice-2"/>
+						<label for="radio-choice-3"> Not Very likely</label>
+						<input type="radio" name="radiochoice" id="radio-choice-3" value="choice-3"/>
+						<label for="radio-choice-4"> Not likely at all</label>
+						<input type="radio" name="radiochoice" id="radio-choice-4" value="choice-4"/>
+					</div>
+					<div>
+						<h4>4. Which of the following aspects do you consider most important to a good movie:</h4>
+						<label for="radio-choice-1"> Casting</label>
+						<input type="radio" name="radiochoice" id="radio-choice-1" value="choice-1"/>
+						<label for="radio-choice-2"> Writing</label>
+						<input type="radio" name="radiochoice" id="radio-choice-2" value="choice-2"/>
+						<label for="radio-choice-3"> Special Effects</label>
+						<input type="radio" name="radiochoice" id="radio-choice-3" value="choice-3"/>
+						<label for="radio-choice-4"> Directing</label>
+						<input type="radio" name="radiochoice" id="radio-choice-4" value="choice-4"/>
+					</div>
+					<div>
+						<h4>5. How likely are you to watch a movie during it's opening weekend:</h4>
+						<label for="radio-choice-1"> Very likely</label>
+						<input type="radio" name="radiochoice" id="radio-choice-1" value="choice-1"/>
+						<label for="radio-choice-2"> Somewhat likely</label>
+						<input type="radio" name="radiochoice" id="radio-choice-2" value="choice-2"/>
+						<label for="radio-choice-3"> Not very likely</label>
+						<input type="radio" name="radiochoice" id="radio-choice-3" value="choice-3"/>
+						<label for="radio-choice-4"> Not likely at all</label>
+						<input type="radio" name="radiochoice" id="radio-choice-4" value="choice-4"/>
+					</div>
+					<div>
+						<h4><label for="bestmovie">6. In the last 12 months, what is teh best movie you've seen in theatres:</label></h4>
+						<input type="text" bestmovie="bestmovie" id="bestmovie" value="" />
+					</div>
+					<div>
+						<h4><label for="enjoyable">7. What about the movie was most enjoyable:</label></h4>
+						<input type="text" enjoyable="enjoyable" id="enjoyable" value="" />
+					</div>
+					<div>
+						<h4>8. How likely are you to see a movie in theatres a second time:</h4>
+						<label for="radio-choice-1"> Very likely</label>
+						<input type="radio" name="radiochoice" id="radio-choice-1" value="choice-1"/>
+						<label for="radio-choice-2"> Somewhat likely</label>
+						<input type="radio" name="radiochoice" id="radio-choice-2" value="choice-2"/>
+						<label for="radio-choice-3"> Not Very likely</label>
+						<input type="radio" name="radiochoice" id="radio-choice-3" value="choice-3"/>
+						<label for="radio-choice-4"> Not likely at all</label>
+						<input type="radio" name="radiochoice" id="radio-choice-4" value="choice-4"/>
+					</div>
+			</fieldset>
+	</body>
+</html>
